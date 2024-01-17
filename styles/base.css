@@ -23,7 +23,7 @@ header {
 }
 
 .profile-pic img {
-    grid-column: 2/4;
+    grid-column: 3/5;
     height: 10vw;
     margin-top: 1vw;
     align-content: center;
@@ -31,8 +31,8 @@ header {
 }
 
 .profile-pic h1 {
-    grid-column: 4/9;
-    margin-top: 10%;
+    grid-column: 5/9;
+    margin-top: 15%;
     color: white;
 
 }

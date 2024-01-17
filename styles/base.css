@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+:root {
+    --color: #0066cc
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+}
+
+.profile-pic {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: var(--color);
+    grid-column: 2/8;
+    height: 12vw;
+}
+
+.profile-pic img {
+    grid-column: 2/4;
+    height: 10vw;
+    margin-top: 1vw;
+    align-content: center;
+    margin-left: 3vw;
+}
+
+.profile-pic h1 {
+    grid-column: 4/9;
+    margin-top: 10%;
+    color: white;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#navigator-section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: black;
+    grid-column: 2/8;
+}
+
+#navigator-section ul {
+    width: max-content;
+}
+
+nav ul li {
+    font-size: 2vw;
+    text-align: center;
+    width: 20vw;
+    padding-bottom: 1.5vw;
+}
+
+nav ul li:hover {
+    font-weight: 900;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#body-section {
+    display: grid;
+    grid-column: 2/8;
+    margin: 1vw;
+}
+
+#body-section section h3 {
+    background-color: var(--color);
+    padding: 2vw;
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+}
+
+#body-section section div ul li {
+    list-style-type: none;
+    margin-bottom: 1vw;
+}
+
+#body-section section #hero {
+    text-align: center;
+}
+
+.card div {
+    border: solid 1px black;
+    margin-bottom: 1vw;
+    border-radius: 0 0 5px 5px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+#body-section h2 {
+    color: black;
+    border-bottom: solid 2px black;
+    padding-bottom: 0.5vw;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+}
+
+footer div {
+    grid-column: 2/8;
+    height: 15vw;
+    background-color: var(--color);
+    text-align: center;
+    color: white;
+}
+
+.lastmodified {
+    color: yellow;
+}
